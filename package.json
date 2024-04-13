@@ -11,8 +11,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "node": "nodemon server.js",
-    "pm2": "pm2 start server.js"
+    "node": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -37,7 +36,7 @@
     "body-parser": "^1.20.1",
     "canvacord": "^5.3.0",
     "canvas": "^2.11.2",
-    "canvas-gif": "github:AlipBot/canvas-gif-attp",
+    "canvas-gif": "^1.0.3",
     "cheerio": "^1.0.0-rc.11",
     "connect-flash": "^0.1.1",
     "contains-emoji": "^1.1.4",
